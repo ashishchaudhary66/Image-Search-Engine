@@ -103,3 +103,16 @@
 .active{
     display: block;
 }
+
+@media  (max-width : 560px) {
+
+    .search-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    .input-search{
+        width: 100%;
+    }
+}
